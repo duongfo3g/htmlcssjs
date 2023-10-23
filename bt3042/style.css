@@ -1,0 +1,12 @@
+ul.list-button {
+	list-style-type: none;
+	display: flex;
+}
+
+ul.list-button li {
+	padding: 10px;
+}
+
+form {
+	flex-direction: column;
+}
