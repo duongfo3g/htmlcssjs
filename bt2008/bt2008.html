@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var stdList = [];
+		for (i = 0; i < 20; i++) {
+			fullname = prompt("Nhập vào họ tên sinh viên thứ " + (i + 1));
+			std = {
+				"fullname": fullname
+			};
+			stdList.push(std);
+		}
+		alert(stdList); // Hiển thị danh sách sinh viên trong bảng điều khiển trình duyệt
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.banner {
+	margin: 0;
+	padding: 0;
+}
+
+.banner img {
+	height: 100px;
+	
+}
+
+.menu {
+	background-color: #0082C8;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0px;
+}
+
+.menu ul li {
+	padding: 10px;
+	border-right: solid 1px white;
+}
