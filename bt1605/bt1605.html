@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		a = prompt('Nhập giá trị của a');
+		b = prompt('Nhập giá trị của b');
+		c = prompt('Nhập giá trị của c');
+	if (a==0) {
+		if (b==0) {
+			if (c==0) {
+				document.writeln("Phuong trinh vo so nghiem");
+			}
+			else {
+				document.writeln("Phuong trinh vo nghiem");
+			}
+		}
+		else {
+			document.writeln("Phuong trinh co 1 nghiem x = " + c/b);
+		}
+	}
+	else {
+		delta = b*b-4*a*c;
+		if (delta >0) {
+			x1 = (-b+Math.sqrt(delta))/(2*a);
+			x2 = (-b-Math.sqrt(delta))/(2*a);
+			document.writeln("Phuong trinh co nghiem x1 = " + x1 + ", x2 = " + x2);			
+		}
+		else {
+			if (delta < 0) {
+				document.writeln("Phuong trinh vo nghiem");
+			}
+			else {
+				x = -b/(2*a);
+				document.writeln("Phuong trinh co nghiem kep x1 = x2 = " + x);
+			}
+		}
+	}
+	</script>
+</body>
+</html>
